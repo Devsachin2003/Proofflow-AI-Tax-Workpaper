@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+:root {
+  --pf-navy: #10243a;
+  --pf-ink: #1b2430;
+  --pf-bg: #f4f6f8;
+  --pf-surface: #ffffff;
+  --pf-line: #dce3ea;
+  --pf-teal: #0f766e;
+  --background: var(--pf-bg);
+  --foreground: var(--pf-ink);
+}
+
+.dark {
+  --pf-navy: #08131f;
+  --pf-ink: #e8eef4;
+  --pf-bg: #0b121a;
+  --pf-surface: #121b26;
+  --pf-line: #243244;
+  --pf-teal: #5eead4;
+  --background: var(--pf-bg);
+  --foreground: var(--pf-ink);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  background: var(--pf-bg);
+  color: var(--pf-ink);
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+a {
+  color: inherit;
+}

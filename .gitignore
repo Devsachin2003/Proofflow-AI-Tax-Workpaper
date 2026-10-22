@@ -1,3 +1,13 @@
+# ProofFlow
+.env
+!.env.example
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/coverage/
+playwright-report/
+test-results/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

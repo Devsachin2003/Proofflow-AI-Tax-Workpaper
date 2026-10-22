@@ -1,0 +1,10 @@
+**/node_modules
+**/.next
+**/__pycache__
+**/.pytest_cache
+**/.ruff_cache
+.git
+frontend
+docs
+reference/*.pdf
+.env
